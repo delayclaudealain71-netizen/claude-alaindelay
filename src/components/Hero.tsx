@@ -8,7 +8,7 @@ const wordVariants = {
     opacity: 1,
     y: 0,
     filter: "blur(0px)",
-    transition: { delay: 0.3 + i * 0.06, duration: 0.5, ease: "easeOut" },
+    transition: { delay: 0.3 + i * 0.06, duration: 0.5, ease: "easeOut" as const },
   }),
 };
 
