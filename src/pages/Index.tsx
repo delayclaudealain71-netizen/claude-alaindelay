@@ -18,6 +18,7 @@ const Index = () => {
         <Skills />
         <ExperienceTimeline />
         <Education />
+        <Languages />
         <Contact />
       </main>
       <Footer />
