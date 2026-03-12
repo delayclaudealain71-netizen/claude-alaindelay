@@ -135,10 +135,23 @@ export const EDUCATION: Education[] = [
   },
 ];
 
+export interface Language {
+  name: string;
+  level: string;
+  percent: number;
+}
+
+export const LANGUAGES: Language[] = [
+  { name: "Français", level: "Langue maternelle", percent: 100 },
+  { name: "Allemand", level: "B1 – Intermédiaire", percent: 45 },
+  { name: "Anglais", level: "A2 – Élémentaire", percent: 30 },
+];
+
 export const NAV_ITEMS = [
   { label: "Profil", href: "#about" },
   { label: "Compétences", href: "#skills" },
   { label: "Expérience", href: "#experience" },
   { label: "Formation", href: "#education" },
+  { label: "Langues", href: "#languages" },
   { label: "Contact", href: "#contact" },
 ] as const;
