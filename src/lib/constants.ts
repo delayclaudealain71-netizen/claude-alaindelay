@@ -147,11 +147,39 @@ export const LANGUAGES: Language[] = [
   { name: "Anglais", level: "A2 – Élémentaire", percent: 30 },
 ];
 
+export interface Testimonial {
+  quote: string;
+  author: string;
+  role: string;
+  company: string;
+  date: string;
+}
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    quote:
+      "Loyal, régulier, serviable, précis et autonome, Monsieur Delay ne peut qu'être recommandé à tout employeur à la recherche d'une personne fiable, respectueuse des règles et des procédures en place. Monsieur Delay peut également fonctionner comme collaborateur support dans une équipe finance, pour remplir certaines tâches spécifiques, récurrentes nécessitant régularité et fiabilité. Enfin, Monsieur Delay a toujours fait preuve de courtoisie et d'un excellent état d'esprit, tant avec ses collègues qu'avec la clientèle, ceci jusqu'à son dernier jour de travail.",
+    author: "Alain Stritt",
+    role: "Directeur",
+    company: "Pragmatic Management Sàrl",
+    date: "30 avril 2025",
+  },
+  {
+    quote:
+      "Rigoureux et discret, Monsieur Delay s'est acquitté des tâches qui lui ont été confiées à notre entière satisfaction. Il était un collaborateur agréable et jovial qui a entretenu de très bonnes relations avec ses supérieures et ses collègues.",
+    author: "Muriel Monard",
+    role: "Cheffe de service adjointe, Service des ressources humaines",
+    company: "État de Neuchâtel",
+    date: "26 octobre 2021",
+  },
+];
+
 export const NAV_ITEMS = [
   { label: "Profil", href: "#about" },
   { label: "Compétences", href: "#skills" },
   { label: "Expérience", href: "#experience" },
   { label: "Formation", href: "#education" },
   { label: "Langues", href: "#languages" },
+  { label: "Témoignages", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ] as const;
