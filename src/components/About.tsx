@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { MapPin, Mail, Phone, Linkedin } from "lucide-react";
 import { PERSONAL } from "@/lib/constants";
@@ -30,7 +29,6 @@ export default function About() {
         </motion.div>
 
         <div className="grid md:grid-cols-5 gap-12 items-start">
-          {/* Left: Avatar placeholder + contact */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -58,7 +56,6 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Right: Bio + stats */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
