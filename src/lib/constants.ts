@@ -120,6 +120,18 @@ export const EDUCATION: Education[] = [
     title: "Diplôme de Spécialiste en Comptabilité",
     institution: "BetterStudy",
     location: "Genève",
+    competences: [
+      "Tenir la comptabilité courante en CHF et en monnaie étrangère, comptabiliser les opérations des sociétés de capitaux et établir les décomptes TVA",
+      "Établir les fiches de paie et gérer la comptabilité liée aux salaires",
+      "Utiliser les comptes de régularisation, gérer les risques clients, comptabiliser les amortissements et opérations annexes",
+      "Procéder à la clôture des comptes",
+      "Évaluer les postes du bilan, analyser la situation financière et établir un tableau des flux de trésorerie",
+      "Tenir compte du contexte légal et fiscal des entreprises",
+      "Utiliser le logiciel comptable Crésus Comptabilité",
+      "Calculer des investissements selon les méthodes dynamiques et statiques",
+      "Tenir une comptabilité analytique en coûts effectifs",
+      "Établir un budget pour le compte de résultat, le bilan et le suivi des liquidités",
+    ],
   },
   {
     period: "2020 – 2021",
