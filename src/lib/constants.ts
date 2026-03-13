@@ -143,7 +143,7 @@ export interface Language {
 
 export const LANGUAGES: Language[] = [
   { name: "Français", level: "Langue maternelle", percent: 100 },
-  { name: "Allemand", level: "B1 – Intermédiaire", percent: 45 },
+  { name: "Allemand", level: "A1 – Débutant", percent: 20 },
   { name: "Anglais", level: "A2 – Élémentaire", percent: 30 },
 ];
 
