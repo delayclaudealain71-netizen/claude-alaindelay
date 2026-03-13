@@ -156,6 +156,12 @@ export const EDUCATION: Education[] = [
     title: "Attestation Excel",
     institution: "Forma Box",
     location: "Noiraigue",
+    competences: [
+      "Maîtriser les fonctions essentielles d'Excel (saisie, formules, mise en forme, impression)",
+      "Créer et gérer des bases de données (tris, filtres, sous-totaux, fonctions de recherche)",
+      "Concevoir et exploiter des tableaux croisés dynamiques (synthèse, calculs, graphiques croisés)",
+      "Appliquer la mise en forme avancée (formats conditionnels, alignements, bordures, mise en page)",
+    ],
   },
 ];
 
