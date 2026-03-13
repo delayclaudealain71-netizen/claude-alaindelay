@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Send, Mail, Phone, MapPin, Linkedin } from "lucide-react";
+import { Send, Mail, MapPin, Linkedin } from "lucide-react";
 import { PERSONAL } from "@/lib/constants";
 
 export default function Contact() {
