@@ -139,6 +139,17 @@ export const EDUCATION: Education[] = [
     institution: "CEFCO",
     location: "Neuchâtel",
     mention: "Très Bien",
+    competences: [
+      "Comprendre l'entreprise, la comptabilité et les processus comptables",
+      "Maîtriser le bilan, les opérations sans et avec influence sur le résultat",
+      "Appliquer le système de la comptabilité double et les plans comptables",
+      "Comptabiliser les opérations de financement, d'investissement et de désinvestissement",
+      "Traiter les opérations d'achat, de vente et la TVA",
+      "Gérer les opérations relatives au personnel et à la trésorerie",
+      "Ajuster les comptes de situation et de gestion",
+      "Procéder à la clôture annuelle des comptes selon les différentes formes juridiques",
+      "Comptabiliser les opérations sur immeubles et sur titres",
+    ],
   },
   {
     period: "2021",
