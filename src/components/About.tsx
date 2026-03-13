@@ -44,9 +44,6 @@ export default function About() {
               <a href={`mailto:${PERSONAL.email}`} className="flex items-center gap-3 hover:text-primary transition-colors">
                 <Mail className="w-4 h-4 text-primary" /> {PERSONAL.email}
               </a>
-              <a href={`tel:${PERSONAL.phone}`} className="flex items-center gap-3 hover:text-primary transition-colors">
-                <Phone className="w-4 h-4 text-primary" /> {PERSONAL.phone}
-              </a>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-primary" /> {PERSONAL.location}
               </div>
