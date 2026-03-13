@@ -105,6 +105,7 @@ export interface Education {
   institution: string;
   location?: string;
   mention?: string;
+  competences?: string[];
 }
 
 export const EDUCATION: Education[] = [
