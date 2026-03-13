@@ -114,6 +114,14 @@ export const EDUCATION: Education[] = [
     title: "Programme d'immersion digitale",
     institution: "Digitalizers",
     location: "Neuchâtel",
+    competences: [
+      "Digitalisation des processus",
+      "Analyse et structuration des données",
+      "Reporting et aide à la décision",
+      "Microsoft Power BI",
+      "Intelligence artificielle appliquée (finance / reporting)",
+      "Développement d'applications web",
+    ],
   },
   {
     period: "2023 – 2025",
