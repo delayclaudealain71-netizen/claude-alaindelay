@@ -217,7 +217,7 @@ export const NAV_ITEMS = [
   { label: "Compétences", href: "#skills" },
   { label: "Expérience", href: "#experience" },
   { label: "Formation", href: "#education" },
-  { label: "Langues", href: "#languages" },
+  
   { label: "Témoignages", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ] as const;
