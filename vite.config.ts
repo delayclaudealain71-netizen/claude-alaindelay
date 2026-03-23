@@ -4,7 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
+const base = "/claude-alaindelay/";
 export default defineConfig(({ mode }) => ({
+ base: "/claude-alaindelay/",
   server: {
     host: "::",
     port: 8080,
