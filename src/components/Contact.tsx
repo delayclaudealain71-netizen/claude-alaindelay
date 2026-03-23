@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Send, Mail, MapPin, Linkedin } from "lucide-react";
+import { Send, MapPin, Linkedin } from "lucide-react";
 import { PERSONAL } from "@/lib/constants";
 
 export default function Contact() {
@@ -39,10 +39,9 @@ export default function Contact() {
               Disponible immédiatement pour un nouveau défi professionnel. N'hésitez pas à me contacter pour discuter de vos besoins en comptabilité.
             </p>
             <div className="space-y-4">
-              {[
-                { icon: Mail, label: PERSONAL.email, href: `mailto:${PERSONAL.email}` },
-                
-                { icon: MapPin, label: PERSONAL.location },
+            {[
+              
+              { icon: MapPin, label: PERSONAL.location },
                 { icon: Linkedin, label: "LinkedIn", href: PERSONAL.linkedin },
               ].map(({ icon: Icon, label, href }) => (
                 <div key={label} className="flex items-center gap-3 text-sm text-muted-foreground">

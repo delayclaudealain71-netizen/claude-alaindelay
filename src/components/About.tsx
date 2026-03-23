@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { MapPin, Mail, Linkedin } from "lucide-react";
+import { MapPin, Linkedin } from "lucide-react";
 import { PERSONAL } from "@/lib/constants";
 import profilePhoto from "@/assets/photo_cv_claude-alain.png";
 
@@ -41,9 +41,6 @@ export default function About() {
               className="w-48 h-48 mx-auto md:mx-0 rounded-2xl border border-border object-cover object-top"
             />
             <div className="space-y-3 text-sm text-muted-foreground">
-              <a href={`mailto:${PERSONAL.email}`} className="flex items-center gap-3 hover:text-primary transition-colors">
-                <Mail className="w-4 h-4 text-primary" /> {PERSONAL.email}
-              </a>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-primary" /> {PERSONAL.location}
               </div>
