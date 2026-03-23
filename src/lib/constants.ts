@@ -7,7 +7,7 @@ export const PERSONAL = {
   linkedin: "https://www.linkedin.com/in/claude-alain-delay",
   location: "Couvet, Neuchâtel, Suisse",
   availability: "Disponible immédiatement",
-  bio: "Comptable spécialisé, rigoureux et engagé, fort de plus de huit ans d'expérience dans la tenue et la gestion de comptabilités. Reconnu pour mon sens des responsabilités, ma fiabilité et ma capacité d'adaptation, j'apporte une approche humaine, pragmatique et orientée solution, centrée sur la qualité du travail et la satisfaction du client.",
+  bio: "Comptable spécialisé, rigoureux et engagé, fort de plus de huit ans d'expérience dans la tenue et la gestion de comptabilités. Aujourd'hui, je souhaite évoluer vers un poste de comptable PME orienté reporting et data, au sein d'une organisation attachée à la fiabilité financière, à l'efficacité opérationnelle et à la modernisation des outils.",
 } as const;
 
 export const SKILLS = {

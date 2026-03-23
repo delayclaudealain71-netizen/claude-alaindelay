@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { MapPin, Mail, Linkedin } from "lucide-react";
+import { MapPin, Linkedin } from "lucide-react";
 import { PERSONAL } from "@/lib/constants";
 import profilePhoto from "@/assets/photo_cv_claude-alain.png";
 
