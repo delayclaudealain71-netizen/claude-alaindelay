@@ -85,7 +85,7 @@ export default function Hero() {
           <button onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })} className="btn-primary">
             Découvrir <ArrowRight className="w-4 h-4" />
           </button>
-          <a href={`${import.meta.env.BASE_URL}CV_Delay_Claude-Alain.pdf`} download className="btn-outline">
+          <a href="/claude-alaindelay/CV_Delay_Claude-Alain_23.03.26.pdf" download className="btn-outline">
             <Download className="w-4 h-4" /> Télécharger CV
           </a>
         </motion.div>
