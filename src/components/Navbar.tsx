@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { NAV_ITEMS, PERSONAL } from "@/lib/constants";
 
 export default function Navbar() {
@@ -73,9 +73,6 @@ export default function Navbar() {
                 {label}
               </button>
             ))}
-            <a href="/CV_Delay_Claude-Alain.pdf" download className="btn-primary text-xs py-2 px-4">
-              <Download className="w-3.5 h-3.5" /> CV
-            </a>
           </div>
 
           <button onClick={() => setMobileOpen(true)} className="md:hidden text-foreground">
@@ -107,9 +104,6 @@ export default function Navbar() {
                 {label}
               </motion.button>
             ))}
-            <a href="/CV_Delay_Claude-Alain.pdf" download className="btn-primary mt-4">
-              <Download className="w-4 h-4" /> Télécharger CV
-            </a>
           </motion.div>
         )}
       </AnimatePresence>
