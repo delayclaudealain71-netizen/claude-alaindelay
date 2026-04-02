@@ -107,8 +107,8 @@ export default function Contact() {
                 placeholder="Votre message..."
               />
             </div>
-            <button type="submit" className="btn-primary w-full justify-center">
-              {sent ? "Envoyé !" : "Envoyer"} <Send className="w-4 h-4" />
+            <button type="submit" disabled={sending} className="btn-primary w-full justify-center">
+              {sent ? "Envoyé !" : sending ? "Envoi..." : "Envoyer"} <Send className="w-4 h-4" />
             </button>
           </motion.form>
         </div>
