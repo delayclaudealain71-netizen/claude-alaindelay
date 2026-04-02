@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <script>
-      window.location.replace("/claude-alaindelay/");
-    </script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Claude-Alain Delay</title>
+  <script>
+    var seg = window.location.pathname.replace('/claude-alaindelay','');
+    if (seg !== '/CV.pdf') {
+      sessionStorage.redirect = window.location.href;
+      window.location.replace('/claude-alaindelay/');
+    }
+  </script>
+</head>
+<body></body>
 </html>
