@@ -73,9 +73,6 @@ export default function Navbar() {
                 {label}
               </button>
             ))}
-            <a href="/CV_Delay_Claude-Alain.pdf" download className="btn-primary text-xs py-2 px-4">
-              <Download className="w-3.5 h-3.5" /> CV
-            </a>
           </div>
 
           <button onClick={() => setMobileOpen(true)} className="md:hidden text-foreground">
