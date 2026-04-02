@@ -104,9 +104,6 @@ export default function Navbar() {
                 {label}
               </motion.button>
             ))}
-            <a href="/CV_Delay_Claude-Alain.pdf" download className="btn-primary mt-4">
-              <Download className="w-4 h-4" /> Télécharger CV
-            </a>
           </motion.div>
         )}
       </AnimatePresence>
