@@ -9,12 +9,27 @@ export default function Contact() {
   const [formState, setFormState] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [sending, setSending] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Placeholder — would integrate with backend
-    setSent(true);
-    setTimeout(() => setSent(false), 3000);
-    setFormState({ name: "", email: "", message: "" });
+    setSending(true);
+    try {
+      const res = await fetch("https://formspree.io/f/meeplojj", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formState),
+      });
+      if (res.ok) {
+        setSent(true);
+        setTimeout(() => setSent(false), 3000);
+        setFormState({ name: "", email: "", message: "" });
+      }
+    } catch (err) {
+      console.error("Form submission error:", err);
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -92,8 +107,8 @@ export default function Contact() {
                 placeholder="Votre message..."
               />
             </div>
-            <button type="submit" className="btn-primary w-full justify-center">
-              {sent ? "Envoyé !" : "Envoyer"} <Send className="w-4 h-4" />
+            <button type="submit" disabled={sending} className="btn-primary w-full justify-center">
+              {sent ? "Envoyé !" : sending ? "Envoi..." : "Envoyer"} <Send className="w-4 h-4" />
             </button>
           </motion.form>
         </div>
