@@ -5,7 +5,7 @@ export const PERSONAL = {
   phone: "+41 78 723 08 07",
   email: "delayclaudealain71@gmail.com",
   linkedin: "https://www.linkedin.com/in/claude-alain-delay",
-  location: "Couvet, Neuchâtel, Suisse",
+  location: "Travers, Neuchâtel, Suisse",
   availability: "Disponible immédiatement",
   bio: "Comptable spécialisé, rigoureux et engagé, fort de plus de huit ans d'expérience dans la tenue et la gestion de comptabilités. Aujourd'hui, je souhaite évoluer vers un poste de comptable PME orienté reporting et data, au sein d'une organisation attachée à la fiabilité financière, à l'efficacité opérationnelle et à la modernisation des outils.",
 } as const;
